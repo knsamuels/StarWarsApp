@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93D000124A6ABEA009C46AF /* KNSStarWarsMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93D000024A6ABE9009C46AF /* KNSStarWarsMovieTableViewCell.swift */; };
+		C93DFF6224A5385A009C46AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93DFF6124A5385A009C46AF /* AppDelegate.m */; };
+		C93DFF6524A5385A009C46AF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93DFF6424A5385A009C46AF /* SceneDelegate.m */; };
+		C93DFF6B24A5385A009C46AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93DFF6924A5385A009C46AF /* Main.storyboard */; };
+		C93DFF6D24A5385F009C46AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93DFF6C24A5385F009C46AF /* Assets.xcassets */; };
+		C93DFF7024A5385F009C46AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93DFF6E24A5385F009C46AF /* LaunchScreen.storyboard */; };
+		C93DFF7324A5385F009C46AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C93DFF7224A5385F009C46AF /* main.m */; };
+		C93DFF8224A53E2F009C46AF /* KNSCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = C93DFF8124A53E2F009C46AF /* KNSCharacters.m */; };
+		C93DFF8524A5424D009C46AF /* KNSMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = C93DFF8424A5424D009C46AF /* KNSMovie.m */; };
+		C93DFF8924A54487009C46AF /* KNSMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93DFF8824A54487009C46AF /* KNSMovieController.m */; };
+		C93DFFFE24A69782009C46AF /* KNSStarWarsMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93DFFFD24A69782009C46AF /* KNSStarWarsMovieTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C93D000024A6ABE9009C46AF /* KNSStarWarsMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNSStarWarsMovieTableViewCell.swift; sourceTree = "<group>"; };
+		C93DFF5D24A5385A009C46AF /* StarWarsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93DFF6024A5385A009C46AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C93DFF6124A5385A009C46AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C93DFF6324A5385A009C46AF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C93DFF6424A5385A009C46AF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C93DFF6A24A5385A009C46AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C93DFF6C24A5385F009C46AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C93DFF6F24A5385F009C46AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C93DFF7124A5385F009C46AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93DFF7224A5385F009C46AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C93DFF8024A53E2F009C46AF /* KNSCharacters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSCharacters.h; sourceTree = "<group>"; };
+		C93DFF8124A53E2F009C46AF /* KNSCharacters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSCharacters.m; sourceTree = "<group>"; };
+		C93DFF8324A5424D009C46AF /* KNSMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSMovie.h; sourceTree = "<group>"; };
+		C93DFF8424A5424D009C46AF /* KNSMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSMovie.m; sourceTree = "<group>"; };
+		C93DFF8724A54487009C46AF /* KNSMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSMovieController.h; sourceTree = "<group>"; };
+		C93DFF8824A54487009C46AF /* KNSMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSMovieController.m; sourceTree = "<group>"; };
+		C93DFFFC24A69781009C46AF /* StarWarsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWarsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C93DFFFD24A69782009C46AF /* KNSStarWarsMovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNSStarWarsMovieTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C93DFF5A24A5385A009C46AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C93DFF5424A5385A009C46AF = {
+			isa = PBXGroup;
+			children = (
+				C93DFF5F24A5385A009C46AF /* StarWarsApp */,
+				C93DFF5E24A5385A009C46AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C93DFF5E24A5385A009C46AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFF5D24A5385A009C46AF /* StarWarsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93DFF5F24A5385A009C46AF /* StarWarsApp */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFF7C24A53B36009C46AF /* Models */,
+				C93DFF7B24A53B31009C46AF /* Controllers */,
+				C93DFF7A24A53B2B009C46AF /* Views  */,
+				C93DFF7924A53AB6009C46AF /* Resources  */,
+			);
+			path = StarWarsApp;
+			sourceTree = "<group>";
+		};
+		C93DFF7924A53AB6009C46AF /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFF6024A5385A009C46AF /* AppDelegate.h */,
+				C93DFF6124A5385A009C46AF /* AppDelegate.m */,
+				C93DFF6324A5385A009C46AF /* SceneDelegate.h */,
+				C93DFF6424A5385A009C46AF /* SceneDelegate.m */,
+				C93DFF6C24A5385F009C46AF /* Assets.xcassets */,
+				C93DFF6E24A5385F009C46AF /* LaunchScreen.storyboard */,
+				C93DFF7124A5385F009C46AF /* Info.plist */,
+				C93DFF7224A5385F009C46AF /* main.m */,
+			);
+			path = "Resources ";
+			sourceTree = "<group>";
+		};
+		C93DFF7A24A53B2B009C46AF /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFFFF24A6ABCB009C46AF /* Custom Views */,
+				C93DFF6924A5385A009C46AF /* Main.storyboard */,
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		C93DFF7B24A53B31009C46AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFFFA24A6974A009C46AF /* View Controllers */,
+				C93DFF8624A5446F009C46AF /* Model Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C93DFF7C24A53B36009C46AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFF8324A5424D009C46AF /* KNSMovie.h */,
+				C93DFF8424A5424D009C46AF /* KNSMovie.m */,
+				C93DFF8024A53E2F009C46AF /* KNSCharacters.h */,
+				C93DFF8124A53E2F009C46AF /* KNSCharacters.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C93DFF8624A5446F009C46AF /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFF8724A54487009C46AF /* KNSMovieController.h */,
+				C93DFF8824A54487009C46AF /* KNSMovieController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		C93DFFFA24A6974A009C46AF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C93DFFFD24A69782009C46AF /* KNSStarWarsMovieTableViewController.swift */,
+				C93DFFFC24A69781009C46AF /* StarWarsApp-Bridging-Header.h */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C93DFFFF24A6ABCB009C46AF /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				C93D000024A6ABE9009C46AF /* KNSStarWarsMovieTableViewCell.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C93DFF5C24A5385A009C46AF /* StarWarsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93DFF7624A5385F009C46AF /* Build configuration list for PBXNativeTarget "StarWarsApp" */;
+			buildPhases = (
+				C93DFF5924A5385A009C46AF /* Sources */,
+				C93DFF5A24A5385A009C46AF /* Frameworks */,
+				C93DFF5B24A5385A009C46AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWarsApp;
+			productName = StarWarsApp;
+			productReference = C93DFF5D24A5385A009C46AF /* StarWarsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C93DFF5524A5385A009C46AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KNS;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kristin Samuels ";
+				TargetAttributes = {
+					C93DFF5C24A5385A009C46AF = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = C93DFF5824A5385A009C46AF /* Build configuration list for PBXProject "StarWarsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C93DFF5424A5385A009C46AF;
+			productRefGroup = C93DFF5E24A5385A009C46AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93DFF5C24A5385A009C46AF /* StarWarsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C93DFF5B24A5385A009C46AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93DFF7024A5385F009C46AF /* LaunchScreen.storyboard in Resources */,
+				C93DFF6D24A5385F009C46AF /* Assets.xcassets in Resources */,
+				C93DFF6B24A5385A009C46AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93DFF5924A5385A009C46AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93DFFFE24A69782009C46AF /* KNSStarWarsMovieTableViewController.swift in Sources */,
+				C93DFF6224A5385A009C46AF /* AppDelegate.m in Sources */,
+				C93DFF8924A54487009C46AF /* KNSMovieController.m in Sources */,
+				C93DFF7324A5385F009C46AF /* main.m in Sources */,
+				C93D000124A6ABEA009C46AF /* KNSStarWarsMovieTableViewCell.swift in Sources */,
+				C93DFF8524A5424D009C46AF /* KNSMovie.m in Sources */,
+				C93DFF6524A5385A009C46AF /* SceneDelegate.m in Sources */,
+				C93DFF8224A53E2F009C46AF /* KNSCharacters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C93DFF6924A5385A009C46AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93DFF6A24A5385A009C46AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C93DFF6E24A5385F009C46AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93DFF6F24A5385F009C46AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C93DFF7424A5385F009C46AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C93DFF7524A5385F009C46AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C93DFF7724A5385F009C46AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAP7J6U3Y3;
+				INFOPLIST_FILE = "$(SRCROOT)/StarWarsApp/Resources /Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KNS.StarWarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWarsApp/Controllers/View Controllers/StarWarsApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C93DFF7824A5385F009C46AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAP7J6U3Y3;
+				INFOPLIST_FILE = "$(SRCROOT)/StarWarsApp/Resources /Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KNS.StarWarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWarsApp/Controllers/View Controllers/StarWarsApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93DFF5824A5385A009C46AF /* Build configuration list for PBXProject "StarWarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93DFF7424A5385F009C46AF /* Debug */,
+				C93DFF7524A5385F009C46AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93DFF7624A5385F009C46AF /* Build configuration list for PBXNativeTarget "StarWarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93DFF7724A5385F009C46AF /* Debug */,
+				C93DFF7824A5385F009C46AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C93DFF5524A5385A009C46AF /* Project object */;
+}
